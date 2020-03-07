@@ -1,0 +1,460 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		533664EC241365C10006FEAC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 533664EB241365C10006FEAC /* AppDelegate.m */; };
+		533664EF241365C10006FEAC /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 533664EE241365C10006FEAC /* SceneDelegate.m */; };
+		533664F2241365C10006FEAC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 533664F1241365C10006FEAC /* ViewController.m */; };
+		533664F5241365C10006FEAC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 533664F3241365C10006FEAC /* Main.storyboard */; };
+		533664F7241365C30006FEAC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 533664F6241365C30006FEAC /* Assets.xcassets */; };
+		533664FA241365C30006FEAC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 533664F8241365C30006FEAC /* LaunchScreen.storyboard */; };
+		533664FD241365C30006FEAC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 533664FC241365C30006FEAC /* main.m */; };
+		533665132413668D0006FEAC /* 商店商品2.plist in Resources */ = {isa = PBXBuildFile; fileRef = 533665042413668D0006FEAC /* 商店商品2.plist */; };
+		533665142413668D0006FEAC /* 商店商品1.plist in Resources */ = {isa = PBXBuildFile; fileRef = 533665052413668D0006FEAC /* 商店商品1.plist */; };
+		533665152413668D0006FEAC /* 商店商品3.plist in Resources */ = {isa = PBXBuildFile; fileRef = 533665062413668D0006FEAC /* 商店商品3.plist */; };
+		533665162413668D0006FEAC /* ReuseView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5336650A2413668D0006FEAC /* ReuseView.xib */; };
+		533665172413668D0006FEAC /* WaterfallFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 5336650D2413668D0006FEAC /* WaterfallFlowLayout.m */; };
+		533665182413668D0006FEAC /* CollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5336650E2413668D0006FEAC /* CollectionViewCell.m */; };
+		533665192413668D0006FEAC /* DataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 5336650F2413668D0006FEAC /* DataModel.m */; };
+		5336651A2413668D0006FEAC /* CollectionHeaderOrFooterView.m in Sources */ = {isa = PBXBuildFile; fileRef = 533665102413668D0006FEAC /* CollectionHeaderOrFooterView.m */; };
+		5336651B2413668D0006FEAC /* WaterFallFlowViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 533665112413668D0006FEAC /* WaterFallFlowViewModel.m */; };
+		6A9447A1395B8361BBC5B16A /* libPods-VerticalEqualWidthDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AEB37E195EBC52C87FFEF368 /* libPods-VerticalEqualWidthDemo.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		533664E7241365C10006FEAC /* VerticalEqualWidthDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VerticalEqualWidthDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		533664EA241365C10006FEAC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		533664EB241365C10006FEAC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		533664ED241365C10006FEAC /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		533664EE241365C10006FEAC /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		533664F0241365C10006FEAC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		533664F1241365C10006FEAC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		533664F4241365C10006FEAC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		533664F6241365C30006FEAC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		533664F9241365C30006FEAC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		533664FB241365C30006FEAC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		533664FC241365C30006FEAC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		533665042413668D0006FEAC /* 商店商品2.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "商店商品2.plist"; sourceTree = "<group>"; };
+		533665052413668D0006FEAC /* 商店商品1.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "商店商品1.plist"; sourceTree = "<group>"; };
+		533665062413668D0006FEAC /* 商店商品3.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "商店商品3.plist"; sourceTree = "<group>"; };
+		533665082413668D0006FEAC /* DataModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataModel.h; sourceTree = "<group>"; };
+		533665092413668D0006FEAC /* CollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CollectionViewCell.h; sourceTree = "<group>"; };
+		5336650A2413668D0006FEAC /* ReuseView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ReuseView.xib; sourceTree = "<group>"; };
+		5336650B2413668D0006FEAC /* CollectionHeaderOrFooterView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CollectionHeaderOrFooterView.h; sourceTree = "<group>"; };
+		5336650C2413668D0006FEAC /* WaterFallFlowViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WaterFallFlowViewModel.h; sourceTree = "<group>"; };
+		5336650D2413668D0006FEAC /* WaterfallFlowLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WaterfallFlowLayout.m; sourceTree = "<group>"; };
+		5336650E2413668D0006FEAC /* CollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CollectionViewCell.m; sourceTree = "<group>"; };
+		5336650F2413668D0006FEAC /* DataModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataModel.m; sourceTree = "<group>"; };
+		533665102413668D0006FEAC /* CollectionHeaderOrFooterView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CollectionHeaderOrFooterView.m; sourceTree = "<group>"; };
+		533665112413668D0006FEAC /* WaterFallFlowViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WaterFallFlowViewModel.m; sourceTree = "<group>"; };
+		533665122413668D0006FEAC /* WaterfallFlowLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WaterfallFlowLayout.h; sourceTree = "<group>"; };
+		A07030FDCC574369CFF58C4D /* Pods-VerticalEqualWidthDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VerticalEqualWidthDemo.debug.xcconfig"; path = "Target Support Files/Pods-VerticalEqualWidthDemo/Pods-VerticalEqualWidthDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		A959A022656DD9D922C6BA9D /* Pods-VerticalEqualWidthDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VerticalEqualWidthDemo.release.xcconfig"; path = "Target Support Files/Pods-VerticalEqualWidthDemo/Pods-VerticalEqualWidthDemo.release.xcconfig"; sourceTree = "<group>"; };
+		AEB37E195EBC52C87FFEF368 /* libPods-VerticalEqualWidthDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-VerticalEqualWidthDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		533664E4241365C10006FEAC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A9447A1395B8361BBC5B16A /* libPods-VerticalEqualWidthDemo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		46BD425C6BFE29152146D7EA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A07030FDCC574369CFF58C4D /* Pods-VerticalEqualWidthDemo.debug.xcconfig */,
+				A959A022656DD9D922C6BA9D /* Pods-VerticalEqualWidthDemo.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		533664DE241365C10006FEAC = {
+			isa = PBXGroup;
+			children = (
+				533664E9241365C10006FEAC /* VerticalEqualWidthDemo */,
+				533664E8241365C10006FEAC /* Products */,
+				46BD425C6BFE29152146D7EA /* Pods */,
+				B2096DDE704DF5FDA36068ED /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		533664E8241365C10006FEAC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				533664E7241365C10006FEAC /* VerticalEqualWidthDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		533664E9241365C10006FEAC /* VerticalEqualWidthDemo */ = {
+			isa = PBXGroup;
+			children = (
+				533665072413668D0006FEAC /* 瀑布流 */,
+				533665032413668D0006FEAC /* 资源 */,
+				533664EA241365C10006FEAC /* AppDelegate.h */,
+				533664EB241365C10006FEAC /* AppDelegate.m */,
+				533664ED241365C10006FEAC /* SceneDelegate.h */,
+				533664EE241365C10006FEAC /* SceneDelegate.m */,
+				533664F0241365C10006FEAC /* ViewController.h */,
+				533664F1241365C10006FEAC /* ViewController.m */,
+				533664F3241365C10006FEAC /* Main.storyboard */,
+				533664F6241365C30006FEAC /* Assets.xcassets */,
+				533664F8241365C30006FEAC /* LaunchScreen.storyboard */,
+				533664FB241365C30006FEAC /* Info.plist */,
+				533664FC241365C30006FEAC /* main.m */,
+			);
+			path = VerticalEqualWidthDemo;
+			sourceTree = "<group>";
+		};
+		533665032413668D0006FEAC /* 资源 */ = {
+			isa = PBXGroup;
+			children = (
+				533665042413668D0006FEAC /* 商店商品2.plist */,
+				533665052413668D0006FEAC /* 商店商品1.plist */,
+				533665062413668D0006FEAC /* 商店商品3.plist */,
+			);
+			path = "资源";
+			sourceTree = "<group>";
+		};
+		533665072413668D0006FEAC /* 瀑布流 */ = {
+			isa = PBXGroup;
+			children = (
+				533665082413668D0006FEAC /* DataModel.h */,
+				533665092413668D0006FEAC /* CollectionViewCell.h */,
+				5336650A2413668D0006FEAC /* ReuseView.xib */,
+				5336650B2413668D0006FEAC /* CollectionHeaderOrFooterView.h */,
+				5336650C2413668D0006FEAC /* WaterFallFlowViewModel.h */,
+				5336650D2413668D0006FEAC /* WaterfallFlowLayout.m */,
+				5336650E2413668D0006FEAC /* CollectionViewCell.m */,
+				5336650F2413668D0006FEAC /* DataModel.m */,
+				533665102413668D0006FEAC /* CollectionHeaderOrFooterView.m */,
+				533665112413668D0006FEAC /* WaterFallFlowViewModel.m */,
+				533665122413668D0006FEAC /* WaterfallFlowLayout.h */,
+			);
+			path = "瀑布流";
+			sourceTree = "<group>";
+		};
+		B2096DDE704DF5FDA36068ED /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AEB37E195EBC52C87FFEF368 /* libPods-VerticalEqualWidthDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		533664E6241365C10006FEAC /* VerticalEqualWidthDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 53366500241365C30006FEAC /* Build configuration list for PBXNativeTarget "VerticalEqualWidthDemo" */;
+			buildPhases = (
+				5CCA175FB885732FFC73AB9E /* [CP] Check Pods Manifest.lock */,
+				533664E3241365C10006FEAC /* Sources */,
+				533664E4241365C10006FEAC /* Frameworks */,
+				533664E5241365C10006FEAC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VerticalEqualWidthDemo;
+			productName = VerticalEqualWidthDemo;
+			productReference = 533664E7241365C10006FEAC /* VerticalEqualWidthDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		533664DF241365C10006FEAC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "朱伟阁";
+				TargetAttributes = {
+					533664E6241365C10006FEAC = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 533664E2241365C10006FEAC /* Build configuration list for PBXProject "VerticalEqualWidthDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 533664DE241365C10006FEAC;
+			productRefGroup = 533664E8241365C10006FEAC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				533664E6241365C10006FEAC /* VerticalEqualWidthDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		533664E5241365C10006FEAC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				533665152413668D0006FEAC /* 商店商品3.plist in Resources */,
+				533665142413668D0006FEAC /* 商店商品1.plist in Resources */,
+				533664FA241365C30006FEAC /* LaunchScreen.storyboard in Resources */,
+				533664F7241365C30006FEAC /* Assets.xcassets in Resources */,
+				533664F5241365C10006FEAC /* Main.storyboard in Resources */,
+				533665162413668D0006FEAC /* ReuseView.xib in Resources */,
+				533665132413668D0006FEAC /* 商店商品2.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5CCA175FB885732FFC73AB9E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-VerticalEqualWidthDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		533664E3241365C10006FEAC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				533665182413668D0006FEAC /* CollectionViewCell.m in Sources */,
+				5336651A2413668D0006FEAC /* CollectionHeaderOrFooterView.m in Sources */,
+				533664F2241365C10006FEAC /* ViewController.m in Sources */,
+				533664EC241365C10006FEAC /* AppDelegate.m in Sources */,
+				5336651B2413668D0006FEAC /* WaterFallFlowViewModel.m in Sources */,
+				533664FD241365C30006FEAC /* main.m in Sources */,
+				533665192413668D0006FEAC /* DataModel.m in Sources */,
+				533665172413668D0006FEAC /* WaterfallFlowLayout.m in Sources */,
+				533664EF241365C10006FEAC /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		533664F3241365C10006FEAC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				533664F4241365C10006FEAC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		533664F8241365C30006FEAC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				533664F9241365C30006FEAC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		533664FE241365C30006FEAC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		533664FF241365C30006FEAC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		53366501241365C30006FEAC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A07030FDCC574369CFF58C4D /* Pods-VerticalEqualWidthDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = U458K5GD6W;
+				INFOPLIST_FILE = VerticalEqualWidthDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.sssssss.VerticalEqualWidthDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		53366502241365C30006FEAC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A959A022656DD9D922C6BA9D /* Pods-VerticalEqualWidthDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = U458K5GD6W;
+				INFOPLIST_FILE = VerticalEqualWidthDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.sssssss.VerticalEqualWidthDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		533664E2241365C10006FEAC /* Build configuration list for PBXProject "VerticalEqualWidthDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				533664FE241365C30006FEAC /* Debug */,
+				533664FF241365C30006FEAC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		53366500241365C30006FEAC /* Build configuration list for PBXNativeTarget "VerticalEqualWidthDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				53366501241365C30006FEAC /* Debug */,
+				53366502241365C30006FEAC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 533664DF241365C10006FEAC /* Project object */;
+}
